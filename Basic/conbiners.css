@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#red h2{
+    color: whitesmoke;
+    background-color: firebrick;
+}
+
+
+#blue h2{
+    color: whitesmoke;
+    background-color: dodgerblue;
+}
+
+h2 ~p {
+    background-color: firebrick;
+}
+h2+p {
+    background-color: lightskyblue;
+}
+
+div > p{
+    background-color: darkorange;
+}
+
+div p{
+    background-color: darkgreen;
+}
