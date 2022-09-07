@@ -1,0 +1,33 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#assignment-instructions{
+    color: darkorange;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+li:nth-child(2) code{
+    color: green;
+}
+
+code{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;  
+    font-weight: bold; 
+}
+
+
+li ~ li{
+    background-color: black;
+    color: white;
+}
+
+
+ol > li{
+    background-color: black;
+    color: white;
+}
