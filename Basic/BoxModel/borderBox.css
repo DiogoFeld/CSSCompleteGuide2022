@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+h1 {
+    background-color: black;
+}
+
+
+div {
+    width: 100%;
+    padding: 20px;
+    border: 5px rgb(231 231 236) solid;
+}
+
+#div1 {
+    background-color: palevioletred;
+}
+
+#div2 {
+    background-color: purple;
+    box-sizing: border-box;
+}

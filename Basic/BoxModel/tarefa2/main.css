@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+.divBox,.divBox2{
+    background-color: lightgreen;
+    padding: 40px;
+    border: 1px solid rgb(21, 161, 21);
+    margin: 25px 10px 10px 0px ;
+    height: 300px;
+    width: 50%;
+}
+.divBox{
+    
+}
+
+.divBox2:hover{
+    padding: 20px;
+    background-color: pink;
+
+
+}

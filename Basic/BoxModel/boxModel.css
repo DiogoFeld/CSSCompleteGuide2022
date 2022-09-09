@@ -1,4 +1,33 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    font-size: 1.4em;
+}
+
+
+div {
+    width: 300px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+#pElement {
+    margin: 2px;
+}
+
+#divP {
+    background-color: lemonchiffon;
+    border: 2px solid darkorange;
+    margin: 2px;
+}
+
+/* margem entre os dois é sobreposta pelo maior valor */
+#divP2 {
+    margin: 5px;
+    padding: 20px;
+    background-color: lightskyblue;
+    border: 2px solid darkcyan;
 }
