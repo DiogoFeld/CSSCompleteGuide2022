@@ -1,0 +1,38 @@
+*{
+    font-size: 1.5em;
+}
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    margin-bottom: 16px;
+    background: #fa923f;
+    padding: 8px 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+a.active{
+    color: rgb(99, 15, 43);
+}
+
+/* not - subclasse que aplica estilos a todos que não sejam a classe em questão */
+a:not(a.active){
+    color: darkblue;
+}
+
+
+.main-section {
+    height: 800px;
+    border: 1px solid #ccc !important;
+    padding: 16px;
+}
+
+.highlight{
+    border: 3px solid darkorange;
+}
