@@ -1,0 +1,4 @@
+This session exists for the basics
+such as hover, active
+display and position
+color, font and background
