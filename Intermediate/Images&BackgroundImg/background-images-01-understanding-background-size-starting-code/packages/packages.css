@@ -1,10 +1,13 @@
 main {
     padding-top: 32px;
+    z-index: 120;
+    position: relative;
+
 }
 
 .background {
     background: url("../images/plans-background.jpg");
-    filter:grayscale(70%);
+    filter: grayscale(70%);
     width: 100%;
     height: 100%;
     position: fixed;
@@ -21,7 +24,7 @@ main {
 
 .package:hover,
 .package:active {
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     border-color: #ff5454;
     /* border-color: #ff5454 !important; */
 }
