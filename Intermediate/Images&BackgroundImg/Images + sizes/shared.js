@@ -41,4 +41,3 @@ function OpenMobile() {
     backdrop.classList.remove("close");
     backdrop.classList.add("open");
 }
-

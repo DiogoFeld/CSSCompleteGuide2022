@@ -7,6 +7,11 @@ body {
   margin: 0;
 }
 
+main{
+  min-height: calc(100vh - 8rem - 3.5rem); 
+}
+
+
 .backdrop {
   position: fixed;
   display: none;
@@ -72,7 +77,7 @@ body {
 }
 
 .main-nav {
-  display: inline-block;
+  display: none;
   text-align: right;
   width: calc(100% - 122px);
   vertical-align: middle;
@@ -199,4 +204,10 @@ body {
 
 .open {
     display: block !important;
+}
+
+@media (min-width:40rem) {
+  .main-nav{
+    display: inline-block;    
+  }
 }
