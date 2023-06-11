@@ -2,6 +2,11 @@
 html {
   font-size: 94.75%;
 }
+@media (min-width: 40rem) {
+  html {
+    font-size: 125%;
+  }
+}
 
 body {
   font-family: Arial, sans-serif;
@@ -13,6 +18,7 @@ body {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
@@ -20,9 +26,9 @@ body {
   box-sizing: border-box;
 }
 
-.sass-introduction {
-  border: 0.05rem solid #521751;
-  background: #fae5ff;
+.sass-introZero, .sass-introduction {
+  border: 0.05rem solid mainColor;
+  background: #f4daf4;
   padding: 2rem;
   text-align: center;
   box-shadow: 0.2rem 0.2rem 0.1rem #ccc;
@@ -61,23 +67,20 @@ body {
   display: -webkit-flex;
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
 }
-
 .documentation-links li {
   margin: 0.2rem 0;
-  background: white;
+  background: #521751;
 }
-
-.documentation-links .documentation-link {
+.documentation-links .documentation-links {
   text-decoration: none;
   color: #521751;
   display: block;
   padding: 0.2rem;
   border: 0.05rem solid #521751;
 }
-
-.documentation-links .documentation-link:hover,
-.documentation-links .documentation-link:active {
+.documentation-links .documentation-links:hover, .documentation-links .documentation-links:active {
   color: white;
   background: #fa923f;
   border-color: #fa923f;
@@ -87,13 +90,13 @@ body {
   html {
     font-size: 125%;
   }
-
   .container {
     padding: 3rem 0;
   }
-
   .sass-introduction,
   .sass-details {
     width: 30rem;
   }
 }
+
+/*# sourceMappingURL=main.css.map */
