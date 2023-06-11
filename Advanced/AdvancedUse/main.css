@@ -1,0 +1,12 @@
+/* use of variables */
+
+
+:root{
+    --exp-color:rgb(56, 139, 23);
+}
+
+
+
+.colorIten{
+background-color: var(--exp-color);
+}
